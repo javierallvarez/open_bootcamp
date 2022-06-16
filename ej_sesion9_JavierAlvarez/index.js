@@ -6,7 +6,7 @@ const miFunc = val => {
     }
     throw new Error('El valor debe ser de tipo string')
 } 
-
+// Por error, ponemos un número en vez de string:
 try {
     const minus = miFunc(3)
     console.log(minus);

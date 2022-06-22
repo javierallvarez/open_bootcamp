@@ -27,8 +27,6 @@ function initMap() {
         center: posicion_1
     })
 
-
-    // The marker, positioned at Uluru
     // Variable sacada como global:
     marker = new google.maps.Marker({
         position: posicion_1,
@@ -45,6 +43,6 @@ function initMap() {
     marker = new google.maps.Marker({
         position: posicion_3,
         map: map,
-        title: "Faro, mirador de la Barrera de Coral, Byron Bay"
+        title: "Mont San Michelle, Rennes"
     });
 }
